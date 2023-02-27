@@ -1,0 +1,25 @@
+#button-1 button {
+  border: 2px solid rgb(17,155,157);
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: whitesmoke;
+  color: rgb(17,155,157)
+}
+  
+#button-2 button {
+  border: 0px;
+  border-radius:50%;
+  margin-bottom: 5px;
+  background-color: rgb(4,209,178);
+  color: white
+}
+
+  #button-3 button {
+    box-shadow: 3px 3px black;
+    background-color: rgb(43,120,228);
+    color: white;
+    border: 2px solid black
+  }

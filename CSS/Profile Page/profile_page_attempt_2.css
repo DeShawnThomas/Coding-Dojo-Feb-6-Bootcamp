@@ -1,0 +1,182 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* This is my CSS reset and affects the whole page. */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+/* This affects everything around my content since we are giving specific input for things below. */
+.top {
+    background-color:#333333 ;
+}
+/* This makes everything contained within "top" have this background color. */
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+/* Since I have a width specified on this and applied margin 0 auto, this stuff will sit in the center of the container (nav). 0 means top and bottom margins are 0 and auto lets the browser decide itself. Also since we put "display: space between" it puts profile on left and links on right */
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+/* Width makes it take up half the "nav" space. Remember that the space-between in nav pushes this to the right. */
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Any a links have white text. Simple as that. */
+.nav-title {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+/* "Profile just has a margin-left of 20px */
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-left: auto;
+}
+/* This just makes the button */
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+/* this is what holds everthing that is below nav */
+.row {
+    display: flex;
+}
+/* Think this may be the issue? I seem to have wrapped all my stuff in here... we shall see */
+
+.col, .col-2 {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.col-2 {
+    flex: 2;
+}
+/* These are for my left and right columns */
+
+.user-card, .card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, .card-body h2, .card-body h3, .card-body p {
+    margin: 20px 0px;
+}
+
+.card-body h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-body h2, .card-body h3, .card-body p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.header {
+    background-color: #333333;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+/* Was missing display flex and aligh items center */
+
+.avatar-s {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.different-users {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 30px;
+
+}
+
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 30px
+}
+
+.dates {
+    font-size: 20px;
+    color: lightgray
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid #999
+}
+
+.connections {
+    background-color: #afababd3;
+    border-radius: 10px;
+    height: 20px;
+    padding: 0 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 12px;
+}

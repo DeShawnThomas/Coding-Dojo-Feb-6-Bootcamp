@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-and-search {
+    background-color: #119b9d;
+    height: 200px;
+    color: #fff;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    border: 5px solid black;
+}
+
+.flex-container {
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.navbar, .shelter-logo, .pet-links, .pet-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}   
+
+.shelter-logo {
+    font-size: 25px;
+}
+
+.pet-links {
+    text-align: right;
+}
+
+.pet-links {
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+    font-size: 25px;
+}
+
+.pet-links a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.donation {
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #90f;
+    border: 2px solid #90f;
+}
+.pet-search {
+    display: flex;
+    align-items: center;
+}
+
+.pet-intro {
+    text-align: left;
+    font-size: 15px;
+}
+
+.type-where {
+    display: flex;
+    padding-top: 5px;
+    align-items: center;;
+}
+
+.pet-question {
+    height: 50px;
+    padding-right: 10%;
+}
+
+.what-kind {
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+.where-at {
+    height: 40px;
+    border: 2px solid black;
+}
+
+.find-pet-button {
+    padding-top: 15px;
+}
+
+.find-pet {
+    height: 35px;
+    width: 200px;
+    margin-right: 20px;
+    background-color: #90f;
+    color: white;
+    border: 3px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px #000000;
+}   
+
+#pepper-bruce-oscar {
+    padding: 0 20px 20px 20px
+}
+
+.pet-adoptions {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+}
+
+.pet-picture {
+    width: 150px;
+    height: 150px;
+}
+
+.name, .info {
+    padding: 0 10px 10px 20px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pettings {
+    text-align: right;
+}
+
+#post-1, #post-2, #post-3 {
+    font-weight: normal;
+}
+
+.good-boy {
+    height: 35px;
+    width: 150px;
+    background-color: #17cfd1;
+    color: white;
+    border: 3px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px #000000;
+    margin-top: 10px;
+}   

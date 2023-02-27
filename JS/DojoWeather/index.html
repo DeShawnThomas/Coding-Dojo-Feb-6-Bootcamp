@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a href="#" class="active" onclick="alert('Loading weather report...')">Burbank</a></li>
+                <li><a href="#" onclick="alert('Loading weather report...')">Chicago</a></li>
+                <li><a href="#" onclick="alert('Loading weather report...')">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="flex-container-main">
+        <!-- top part of main with selected city -->
+        <div class="city-location">
+            <h2 class="selected-city">San Jose</h2>
+            <h3 class="temperature">show temperature in
+                <span class="degrees-style">
+                    <select name="degrees">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </span>
+            </h3>
+        </div>
+        <!-- today tomorrow friday saturday -->
+        <div class="four-day-forecast">
+            <div class="weather-forecast">
+                <h2 class="day-of-week">Today</h2>
+                <img src="assets/some_rain.png" alt="raincloud" class="weather-picture">
+                <h3 class="type-of-weather">some rain</h3>
+                <div class="high-low">
+                    <h3 class="high">24°</h3>
+                    <h3 class="low">18°</h3>
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <h2 class="day-of-week">Tomorrow</h2>
+                <img src="assets/some_sun.png" alt="sun" class="weather-picture">
+                <h3 class="type-of-weather">some sun</h3>
+                <div class="high-low">
+                    <h3 class="high">27°</h3>
+                    <h3 class="low">19°</h3>
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <h2 class="day-of-week">Friday</h2>
+                <img src="assets/some_clouds.png" alt="gray cloud" class="weather-picture">
+                <h3 class="type-of-weather">some clouds</h3>
+                <div class="high-low">
+                    <h3 class="high">21°</h3>
+                    <h3 class="low">16°</h3>
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <h2 class="day-of-week">Today</h2>
+                <img src="assets/some_sun.png" alt="sun" class="weather-picture">
+                <h3 class="type-of-weather">some sun</h3>
+                <div class="high-low">
+                    <h3 class="high">26°</h3>
+                    <h3 class="low">21°</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cookie">
+        <img src="assets/cookie.png" alt="cookie" class="cookie-bite">
+        <div class="cookie-info">
+            <h2 class="holup">Stop! Cookie time</h2>
+            <h3 class="cookie-info">We use cookies (sadly not the edible ones) to personalize content and ads to provide social media features and to analyze our traffic. <a href="#">Read more...</a></h3>
+        </div>
+        <span class="accept-button"><button type="button" class="accept" onclick="cookieMonster()">I Accept</button></span>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>

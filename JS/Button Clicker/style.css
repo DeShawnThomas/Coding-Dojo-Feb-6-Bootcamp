@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    background-color: #c1c1c1;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-left: 30px;
+}
+
+.search-input {
+    width: 300%;
+    height: 30px;
+    border: 2px solid black;
+}
+.nav-search {
+    margin-right: 300px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: royalblue;
+    color: #ffffff;
+    border: 3px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px black;
+    margin-right: 30px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    margin-right: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+.col {
+    flex: 2;
+}
+
+.card, .by-you {
+    width: 100%;
+    background-color: #fff;
+    border: 4px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.by-you {
+    display: block;
+}
+
+.ninja-info, .ninja-def {
+    margin-right: 20px;
+    padding: 20px;
+    flex: 1;
+    align-items: center;
+}
+.ninja-def {
+    flex: 2;
+}
+
+.likes {
+    height: 35px;
+    width: 100px;
+    background-color: #ffd966;
+    color: black;
+    border: 3px solid black;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px #000000;
+}
+
+.by-you h2 {
+    margin: 10px;
+}   
+
+
+.add-def {
+    height: 35px;
+    width: 150px;
+    background-color: #93c47d;
+    color: black;
+    border: 3px solid black;;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px #000000;
+    margin-bottom: 30px;
+}

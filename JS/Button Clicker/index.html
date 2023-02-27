@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script> 
+</head>
+<body>
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <h2 class="nav-search">
+                <input type="text" class="search-input" placeholder="Search">
+            </h2>
+            <button onclick="logoff(this)" class="btn">Login</button>
+        </div>  
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="col">
+                <div class="card">
+                    <div class="ninja-info">
+                        <h1>Ninja</h1>
+                        <h3>noun</h3>
+                        <h4>Plural: <span>ninjas</span></h4>
+                        <button onclick="alert('Ninja was liked')" class="likes">13 likes</button>
+                    </div>
+                    <div class="ninja-def">
+                        <h2>A practioner skilled in the <span><a href="#">Japanese</a></span> art of <span><a href="#">ninjutsu</a></span></h2>
+                    </div>    
+                </div>
+                <div class="card">
+                    <div class="ninja-info">
+                        <h1>Ninja</h1>
+                        <h3>noun</h3>
+                        <h4>Plural: <span>ninjas</span></h4>
+                        <button onclick="alert('Ninja was liked')" class="likes">13 likes</button>
+                    </div>
+                    <div class="ninja-def">
+                        <h2>A <span><a href="#">programmer</a></span> who breaks down problems with <span><a href="#">zen</a></span>-like focus</h2>
+                    </div>    
+                </div>
+            </div>
+
+    <!--  -->
+            <!-- right column -->
+            <div class="col-2">
+                <div class="by-you">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button onclick="hide(this)" class="add-def">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

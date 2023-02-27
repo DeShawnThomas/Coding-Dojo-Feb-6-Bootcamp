@@ -1,0 +1,18 @@
+p {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}

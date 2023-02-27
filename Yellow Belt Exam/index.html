@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar & search -->
+    <div class="nav-and-search">
+        <div class="flex-container">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="shelter-logo">
+                    <img src="assets/heart-light.png" alt="heart" class="heart">
+                    <h1 class="pet-title">Pet Shelter</h1>
+                </div>
+                <ul class="pet-links">
+                    <li><a href="#">Find a Pet</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><span class="donation-button"><button type="button" class="donation" onclick="getMoney()">Donate</button></span></li>
+                </ul>
+            </div>
+        <!-- search -->
+            <div class="pet-search">
+                <div class="looking-for-pet">
+                    <h2 class="pet-intro">I'm looking for a...</h2>
+                    <div class="type-where">
+                        <img src="assets/paw-light.png" alt="paw" class="pet-question">
+                        <select class="what-kind" name="pet-type" onchange="choice(this)">
+                            <option value="1">Any Pet</option>
+                            <option value="2">Dog</option>
+                            <option value="3">Cat</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="looking-for-pet">
+                    <h2 class="pet-intro">in or near...</h2>
+                    <div class="type-where">
+                        <img src="assets/pin-light.png" alt="pin" class="pet-question">
+                        <input type="text" name="zip-code" placeholder="City or Zip Code" class="where-at">
+                    </div>
+                </div>
+                <span class="find-pet-button"><button type="button" class="find-pet">Find your new best friend!</button></span>
+            </div>
+        </div>
+    </div>
+    <!-- pets -->
+    <div class="flex-container" id="pepper-bruce-oscar">
+        <div class="pet-adoptions">
+            <img src="assets/pepper.jpg" alt="cute cat" class="pet-picture">
+            <div class="pet-name-info">
+                <h2 class="name">Pepper</h2>
+                <h3 class="info">Pepper is a slightly shy gray tabby, but she really loves showing her human affection.</h3>
+            </div>
+            <div class="pettings">
+                <span id="post-1">3 petting(s)</span>
+                <span class="petting-button"><button type="button" class="good-boy" onclick="like(0)">Pet Pepper</button></span>
+            </div>
+        </div>
+        <div class="pet-adoptions">
+            <img src="assets/bruce.jpg" alt="cute dog" class="pet-picture">
+            <div class="pet-name-info">
+                <h2 class="name">Bruce</h2>
+                <h3 class="info">Bruce is a loyal companion. He loves long walks and cold weather.</h3>
+            </div>
+            <div class="pettings">
+                <span id="post-2">5 petting(s)</span>
+                <span class="petting-button"><button type="button" class="good-boy" onclick="like(1)">Pet Bruce</button></span>
+            </div>
+        </div>
+        <div class="pet-adoptions">
+            <img src="assets/oscar.jpg" alt="cute dog" class="pet-picture">
+            <div class="pet-name-info">
+                <h2 class="name">Oscar</h2>
+                <h3 class="info">Oscar is bright, energetic and friendly. He is looking for a good home.</h3>
+            </div>
+            <div class="pettings">
+                <span id="post-3">8 petting(s)</span>
+                <span class="petting-button"><button type="button" class="good-boy" onclick="like(2)">Pet Oscar</button></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

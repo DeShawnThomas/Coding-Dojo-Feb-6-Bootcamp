@@ -1,0 +1,40 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: royalblue;
+}
+/* Font to affect h1 and ending paragraph */
+img.octocat {
+    height: 200px;
+}
+/* This was given to us to make the sizes uniform. Note that I gave it the class ".octocat" to affect them all. */
+/* Ctrl + D woulda saved my life to go back and do these all at the same time... */
+.container {
+    width: 800px;
+    background-color: goldenrod;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+/* A good box to wrap around
+Note t*/
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.row {
+    padding: 10px;
+    margin: 10px;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+}
+/* I believe since they are all named "row" I can call for this like the way I do below! */
+.second {
+    background-color: tomato;
+    justify-content: space-evenly;
+}
+
+.third {
+    background-color:turquoise;
+}

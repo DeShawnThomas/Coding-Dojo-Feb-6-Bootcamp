@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    background-color: royalblue;
+    margin: 20px;
+}

@@ -1,0 +1,74 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+	}
+
+.container {
+	height: 500px;
+	width: 1000px;
+	margin: 5%;	
+	border: 2px solid gray;
+	background-color: rgb(240, 240, 240);
+}
+
+.bluebar {
+	flex: 1;
+	background-color: #17a2b8;
+	height: 125px;
+}
+
+img.picture {
+	width: 150px;
+	height: 150px;
+}
+
+.profile_pic {
+	position: fixed;
+	top: 125px;
+	left: 150px	
+}
+
+h1 {
+	position: fixed;
+	top: 265px;
+	left: 150px;
+	font-size: 50px;
+}
+
+h2 {
+	position: fixed;
+	top: 325px;
+	left: 150px;
+	font-size: 25px;
+}
+
+img.map {
+	width: 10px;
+	height: 15px;
+}
+
+h3 {
+	position: fixed;
+	top: 360px;
+	left: 150px;
+	font-size: 20px;
+}
+
+h4 {
+	position: fixed;
+	top: 410px;
+	left: 150px;
+}
+
+img.gear {
+	width: 15px;
+	height: 15px;
+}
