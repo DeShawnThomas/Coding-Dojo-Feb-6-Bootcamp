@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>First Flask</title>
+</head>
+<body class="text-center">
+    <h1>All My Friends</h1>
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Occupation</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for one_friend in all_friends %}
+            <tr>
+                <td>{{one_friend.first_name}}</td>
+                <td>{{one_friend.last_name}}</td>
+                <td>{{one_friend.occupation}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h1>Add a Friend</h1>
+<form action="/create_friend" method="POST">
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname">
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname">
+    <label for="occ">Occupation:</label>
+    <input type="text" name="occ">
+    <input type="submit" value="Add Friend">
+</form>
+
+</body>
+</html>
