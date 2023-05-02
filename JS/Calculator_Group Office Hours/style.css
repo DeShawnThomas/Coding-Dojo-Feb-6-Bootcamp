@@ -1,0 +1,60 @@
+#calculator {
+    background: linear-gradient(to bottom, white, gray, silver, gray, black, silver);
+    border: 2px solid gray;
+    padding: 1%;
+    width: fit-content;
+    margin: auto;
+}
+
+body {
+    height: 50vh;
+    width: 100vw;
+    padding-top: 80px;
+}
+
+#display {
+    background-color: whitesmoke;
+    padding: 5%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+#equals {
+    width: 50%;
+    margin: auto;
+}
+
+#equals:hover {
+    transition: 500ms;
+    background: linear-gradient(to right, gold, goldenrod, darkgoldenrod, goldenrod, gold);
+}
+
+.row {
+    margin: 5px;
+}
+
+.operator:hover{
+    color: white;
+    background: linear-gradient(to right, red, darkred, crimson, red);
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    transition: 100ms;
+}
+
+#clr:hover{
+    color: white;
+    background:linear-gradient(to right, turquoise, lime, green, darkgreen, green, lime, turquoise);
+}
+
+button:active {
+    color: red;
+}
+
+#operation{
+    text-align: center;
+    width: 100vw;
+}

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 480px){
+    .sm-0 {
+        /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+}
+@media only screen and (min-width: 481px){
+    .med-1 {
+        /* anything with the class .med-1 will get 25% of the available width if the screen's width is greater than 480px */
+        width: 25%;
+    }
+}
+
