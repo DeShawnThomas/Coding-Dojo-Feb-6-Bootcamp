@@ -1,0 +1,59 @@
+/* div{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+} */
+
+/* The code above is the same as:  */
+
+div{
+    padding: 25px 50px 75px 100px;
+}
+
+/* Seems to go clock-wise? */
+
+/* div{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 50px;
+} */
+
+/* The code above is the same as:  */
+
+div{
+    padding: 25px 50px 75px;
+}
+
+/* Seems to go: top > side > bottom > other side looping back to the 50 */
+
+/* div{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+} */
+
+/* The code above is the same as:  */
+
+div{
+    padding: 25px 50px;
+}
+
+/* Seems to go: top/bottom > side > top/bottom looping back to the 25 > other side looping back to the 50 */
+
+/* div{
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+} */
+
+/* The code above is the same as:  */
+
+div{
+    padding: 25px;
+}
+   
+    

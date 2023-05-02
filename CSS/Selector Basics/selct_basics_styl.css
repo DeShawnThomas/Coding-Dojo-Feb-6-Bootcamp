@@ -1,0 +1,18 @@
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+#player {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+/* Don't worry about knowing what all of these properties are yet */
+/* we'll come back to them later, we promise! */

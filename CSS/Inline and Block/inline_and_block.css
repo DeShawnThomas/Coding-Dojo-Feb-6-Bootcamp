@@ -1,0 +1,18 @@
+h1, h2 {
+    display: inline-block;
+    background-color: cyan;
+    width: 200px; /* this will work! */
+}
+
+label, input {
+    display: block;
+}
+
+.blueblock {
+    display: inline-block;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightcyan;
+    margin: 10px;
+}

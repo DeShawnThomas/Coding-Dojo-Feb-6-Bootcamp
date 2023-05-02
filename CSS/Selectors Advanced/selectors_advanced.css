@@ -1,0 +1,35 @@
+* {
+    outline: 1px solid red;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+.green {
+    color: mediumseagreen;
+}
+#red {
+    color: tomato;
+}
+
+.quote p {
+    color: darkslategrey;
+    font-style: italic;
+}
+
+.header > img {
+    height: 50px;
+}
+
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
